@@ -102,7 +102,7 @@ body {
   margin-bottom: 16px;
 }
 
-/* GRID */
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -115,7 +115,7 @@ body {
   }
 }
 
-/* CARD */
+
 .card {
   background: white;
   border-radius: 14px;
@@ -174,7 +174,7 @@ body {
   margin-top: 4px;
   color: #374151;
 }
-/* RESET DEFAULT CHECKBOX */
+
 .filter-group input[type="checkbox"] {
   appearance: none;
   -webkit-appearance: none;
@@ -188,13 +188,13 @@ body {
   background: white;
 }
 
-/* CHECKED STATE */
+
 .filter-group input[type="checkbox"]:checked {
   background: #4f46e5;
   border-color: #4f46e5;
 }
 
-/* CHECK MARK */
+
 .filter-group input[type="checkbox"]:checked::after {
   content: "";
   width: 6px;

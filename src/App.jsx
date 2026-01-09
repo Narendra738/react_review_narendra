@@ -30,7 +30,7 @@ function App() {
 
     return (
         <>
-            {/* HEADER */}
+           
             <header className="header">
                 <div className="header-left">
                     <h1>Cosmos City Mall</h1>
@@ -46,7 +46,7 @@ function App() {
             </header>
 
             <div className="layout">
-                {/* FILTERS */}
+             
                 <aside className="filters">
                     <div className="filters-header">
                         <h3>Filters</h3>
@@ -80,7 +80,7 @@ function App() {
                     </div>
                 </aside>
 
-                {/* MAIN */}
+             
                 <main className="content">
                     <div className="results-bar">
             <span>
@@ -116,7 +116,7 @@ function App() {
                                     </div>
 
                                     <div className="rating">
-                                        ⭐ {item.product.rating.value}
+                                         {item.product.rating.value}
                                         <span>
                       ({item.product.rating.count})
                     </span>
