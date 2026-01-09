@@ -6,11 +6,11 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
-
 node_modules
 dist
 dist-ssr
 *.local
+mall_inventory_multifilter_dataset.json
 
 # Editor directories and files
 .vscode/*
